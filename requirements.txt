@@ -1,0 +1,11 @@
+# requirements.txt for Progress Tracking Agent
+
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+langchain
+langchain-google-genai
+google-generativeai
+uuid
+statistics
