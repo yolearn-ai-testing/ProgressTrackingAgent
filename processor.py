@@ -36,7 +36,7 @@ except ImportError:
 
 # --- Load Environment Variables ---
 load_dotenv()
-GOOGLE_API_KEY = "AIzaSyDZnKy4wrkooZTEzrMSl6SX9wKQYpzXJR0" # Correctly use getenv
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 class ProgressProcessor:
     """Encapsulates logic and data storage for the Progress Tracking Agent."""
